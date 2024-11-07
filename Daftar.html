@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Daftar</title>
+    <link rel="stylesheet" href="Daftar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Form Pendaftaran</h2>
+        <form id="pendaftaranForm" onsubmit="return validateForm()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required placeholder="Ihsan"><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Ihsan@gmail.com">
+
+            <label>Konfirmasi Password: <input type="password" id="confirmPassword" required></label><br>
+
+            <input type="submit" value="Daftar">
+        </form>
+    </div>
+
+    <div id="feedback"></div>
+    <script src="tgsprak.js"></script>  
+    <div id="passwordStrength"> </div>
+
+</body>
+</html>

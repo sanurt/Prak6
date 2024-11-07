@@ -1,0 +1,106 @@
+* {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(pexels-asadphoto-457881.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(255, 250, 254);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"], 
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-color: rgb(235, 223, 223);
+    border-radius: 4px;
+    background: transparent;
+}
+
+form input[type="textarea"] {
+    width: 100%;
+    padding:40px;
+    margin-bottom: 30px;
+    border: 2px solid ;
+    border-color: rgb(235, 223, 223);
+    border-radius: 4px;
+    background: transparent;
+}
+
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4359b3;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#feedback {
+    margin-top: 20px;
+    color: red;
+    text-align: center;
+}
+.valid {
+    color: green;
+    text-align: center;
+}
+.invalid {
+    color: red;
+    text-align: center;
+}
+
+#passwordStrength {
+    margin-top: 20px;
+    text-align: center;
+}
+.strength-weak {
+    color: red;
+}
+.strength-medium {
+    color: orange;
+}
+.strength-strong {
+    color: green;
+}
+
+
+
